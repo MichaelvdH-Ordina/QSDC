@@ -1,0 +1,11 @@
+Quintiq file version 2.0
+#parent: #root
+Function CalcColor
+{
+  TextBody:
+  [*
+    value := guard( this.Article().Color(), '' );
+    
+    this.Color( value );
+  *]
+}

@@ -1,0 +1,11 @@
+Quintiq file version 2.0
+#parent: #root
+Function CalcWidth
+{
+  TextBody:
+  [*
+    value := guard( this.Article().Width(), 0 );
+    
+    this.Width( value );
+  *]
+}
